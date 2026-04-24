@@ -92,9 +92,7 @@ hackerai-cli-blackhat/
 │   │   ├── index.ts        # Agent core
 │   │   └── sandbox.ts      # E2B sandbox integration
 │   ├── models/             # Local model integrations
-│   │   ├── ollama.ts       # Ollama support
-│   │   ├── llamacpp.ts     # Llama.cpp support
-│   │   └── lmstudio.ts     # LM Studio support
+│   │   ├── index.ts        # Model manager
 │   ├── tools/              # Hacking tools
 │   │   ├── scanner.ts      # Vulnerability scanner
 │   │   ├── exploit.ts      # Exploit generator
